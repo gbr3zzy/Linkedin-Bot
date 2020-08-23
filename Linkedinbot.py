@@ -56,8 +56,8 @@ if __name__ == '__main__':
     text = ''
     search_text = ''
 
-    bot = LinkedinBot("givanne1995@gmail.com" , "poloking12")
-    bot.login("givanne1995@gmail.com" , "poloking12")
+    bot = LinkedinBot("" , "")
+    bot.login("" , "")
     bot.search('student')
     bot.search(search_text , connect=True)
 
